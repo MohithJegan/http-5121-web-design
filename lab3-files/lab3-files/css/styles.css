@@ -1,0 +1,79 @@
+body {
+  background-color: #40916c;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 1em;
+}
+
+h1,
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 1.25px;
+}
+
+#author {
+  border: 2px dashed #52b788;
+  padding: 1.5em 1.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #1b4332;
+}
+
+a:visited {
+  color: #95d5b2;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: grey;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+#email {
+  padding: 0.5em;
+  border-radius: 0.5em;
+  border: 1px solid #d8f3dc;
+}
+
+.submit-button {
+  padding: 0.5em;
+  border-radius: 0.5em;
+  border: 1px solid #d8f3dc;
+  cursor: pointer;
+  background-color: #95d5b2;
+  color: white;
+}
+.submit-button:hover,
+#email:hover {
+  color: black;
+  background-color: #d8f3dc;
+}
+
+main h1,
+.sign-up {
+  border-bottom: 3px solid #95d5b2;
+  padding-bottom: 0.75em;
+}
+
+main {
+  background-color: #d8f3dc;
+  color: black;
+  padding: 1.5em 1.5em;
+  border-radius: 1.7em;
+}
+
+section {
+  padding: 1.5em 1.5em;
+}
